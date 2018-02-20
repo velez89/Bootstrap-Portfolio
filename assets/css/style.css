@@ -1,0 +1,98 @@
+body{
+    background-image: url(/assets/images/pattern.png);
+    background-repeat: repeat;
+}
+
+
+/* Clearfix Hack */
+
+.clearfix:before,
+.clearfix:after{
+    content:" ";
+    display: block;
+
+}
+
+.clearfix:after{
+    clear:both;
+}
+
+/* Header Styling (used on all pages)  */
+
+.header{
+    background-color: #cccccc;
+    width: 960;
+
+}
+
+header{
+    text-align: center;
+    padding: 33px;
+    Margin-left: 12%;
+    margin-bottom: -15px;
+    float:left;
+    background-color: #4aaaa5;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size: 28px;
+}
+
+nav a{
+    float:left;
+    padding: 33px;
+    color: #777777;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size: 19px
+}
+
+nav{
+    margin-left: 52%
+}
+
+/* Content Box: About Me Page (index.html)  
+                Contact       (contact.html)
+                Portfolio     (portfolio.html)
+*/
+
+#profile_pic{
+    height: 125px;
+    float:left;
+    
+}
+
+.About_Me, .Contact, .Portfolio{
+    display: inline-block;
+    width: 650px;
+    Margin-right:40px;
+    float: left;
+    
+}
+
+
+
+/* Link Box (all pages) */
+
+aside{
+    display: inline-block;
+    width:270px;
+    float: left;
+    
+}
+
+/* Footer Box (all pages) */
+
+.footer{
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    width:960px; 
+    clear: both;
+    padding:20px;
+    
+
+}
