@@ -1,78 +1,98 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 
 <head>
-
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>About Me</title>
-
-  <!-- Bootstrap CDN -->
+  <title>About | Fernando Vélez</title>
+  
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-<!--  Navigation Bar (all pages) -->
-  <nav class="navbar navbar-default">
+ <!--  Navigation Bar (all pages) -->
+ <div class="navbar navbar-inverse">
       
     <div class="container">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#">Fernando</a>
-      </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+     
+        <a href = "#" class="navbar-brand" >Fernando Vélez</a>
+     
+    <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+      <span class = "icon-bar"></span>
+      <span class = "icon-bar"></span>
+      <span class = "icon-bar"></span>
+    </button>
+  </div>
+      <div class="collapse navbar-collapse navHeaderCollapse" >
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
-      </div>
-    </div>
-  </nav>
-
-
-  <div class="container">
-
-   <!--Content Info (index.html)  --> 
-    <div class="row">
-      <div class="col-md-8">
-        <div class="page-header">
-          <h1>About Me</h1>
-        </div>
-        <div class="row">
-          <div class="col-md-3 col-sm-9">
-            <img id="profile_pic" src="assets/images/Profile.jpg" alt="My Photo" class="img-responsive">
-          </div>
-          <div class="col-md-9">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique, nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae felis vulputate pretium. Nullam commodo, est ac auctor ornare,
-              eros nisi fringilla sem, non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus, luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et neque fringilla ultricies. Aenean
-              at feugiat elit, a posuere justo. Pellentesque egestas dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id posuere sem congue a.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title">Panel</h3>
-          </div>
-          <div class="panel-body">
-            Panel content
-          </div>
-        </div>
       </div>
     </div>
   </div>
 
-  <!-- jQuery CDN -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <!-- About Me Section (index.html)-->
+ <div id="main-container" class="container">
 
-  <!-- Bootstrap JavaScript CDN -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</body>
+  <!-- About Header (index.html)-->  
+  <div class="row">
+    <div class="col-md-8 col-sm-12">
+      <div class="page-header">
+        <h1>About Me</h1>
+      </div>
+
+    <!-- Profile Image (index.html)-->
+    <div class="row">
+      <div class="col-md-3 col-sm-12">
+        <img id="profile_pic" src="assets/images/Profile.jpg" alt="My Photo" class="img-responsive">
+      </div>
+
+      <!-- Paragraph Content (index.html)-->
+      <div class="col-md-9 col-sm-12">
+        <p>Born and raised in Atlanta, I am first generation mainlander of two extraordinary Puerto Ricans.
+          In stereotypical Latin fashion, I come from a large Catholic family of seven. I narrowly missed being the youngest of my 4 sisters by 11 minutes.</p>
+
+        <p>During the week, I work as an Underwriter for Interstate National Corp. On the weekends I transition to my other job as a SCUBA instructor. 
+          My underwriting gig pays the bills while the latter helps appease my wanderlust. So far may travels have taken me across Latin America, the Carribean, and Europe.
+          I'm only bilingual in English and Spanish, but I have ambitions in advancing to polyglot status in the near future.</p>
+      </div>
+    </div>
+    </div>
+  
+    <!-- Connect With Me ( all files )  -->
+    <div class="col-md-4 col-sm-12">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Connect with Me</h3>
+        </div>
+        <div class="panel-body">
+            <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+            <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+            <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+        </div>
+      </div>
+    </div>
+
+
+</div>
+</div>
+
+<!--Footer ( all files ) -->
+<footer>
+    <div class="footer">
+      <div class="container">
+          &copy; Copyright 2018 Fernando Vélez 
+      </div>
+      </div>
+    </footer>
+  </body>
+  
 
 </html>
